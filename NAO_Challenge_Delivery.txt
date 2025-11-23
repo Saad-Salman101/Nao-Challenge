@@ -1,35 +1,53 @@
-NAO challenge delivery
+NAO Challenge – Delivery Instructions
+=====================================
 
-Authors:
+Authors
+-------
 
 Saad Salman saad.salman3@studio.unibo.it
 Hafiz Muhammad Mutahir Khan hafizmuhammad.khan11@studio.unibo.it
 
-Github repository: https://github.com/Saad-Salman101/Nao-Challenge.git
+GitHub repository
+-----------------
+https://github.com/Saad-Salman101/Nao-Challenge.git
 
-Starting from a working instance of the "NaoUbuntu" virtual machine:
+Installation and execution on the NAOUbuntu VM
+==============================================
 
-1. Install VLC and GIT:
+Starting from a working instance of the “NaoUbuntu” virtual machine:
 
-sudo apt-get update
-sudo apt-get install vlc git
+1. Install VLC and Git
 
-2. Download the repository:
+   ```bash
+   sudo apt-get update
+   sudo apt-get install vlc git
+
+2. Download the repository
+==============================================
 
 git clone https://github.com/Saad-Salman101/Nao-Challenge.git
 
+
 3. Get the needed Python3 tools:
+==============================================
+
+sudo apt-get install python3 python3-pip python3-venv
+
 
 4. Prepare the virtual environment:
+==============================================
+
+cd Nao-Challenge
+python3 -m venv venv
+source venv/bin/activate
 
 5. Install the Python3 dependencies:
-
+pip install -r requirements.txt
 
 6. Run the script inside a terminal emulator:
-
 cd robo_dance
+python3 main.py
 
-python main.py 
 
 Please, remember to do the following steps before launching the script:
 1. Open Choreograph
