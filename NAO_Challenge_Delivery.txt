@@ -2,12 +2,10 @@ NAO challenge delivery
 
 Authors:
 
-Mutahir Khan hafizmuhammad.khan11@studio.unibo.it
 Saad Salman saad.salman3@studio.unibo.it
+Hafiz Muhammad Mutahir Khan hafizmuhammad.khan11@studio.unibo.it
 
 Github repository: https://github.com/Saad-Salman101/Nao-Challenge.git
-
-Instructions (also in the README.md):
 
 Starting from a working instance of the "NaoUbuntu" virtual machine:
 
